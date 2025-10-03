@@ -58,7 +58,7 @@ pre {
   line-height: 1.4;
 }
 .cv__header .cv__contacts ul li a {
-  color: hsl(108, 72%, 38%);
+  color: hsl(108, 51%, 57%);
   text-decoration: none;
 }
 .cv__header .cv__contacts ul li a:hover {
@@ -149,6 +149,10 @@ pre {
      object-fit: cover;
   margin: 15px auto;
   border-radius: 8px;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 }
 .cv__footer {
   text-align: center;
@@ -176,6 +180,7 @@ pre {
   }
   .cv__sidebar {
     padding: 25px !important;
+    padding-top: 0px !important;
   }
   .cv__main {
     padding: 30px 40px !important;

@@ -2,6 +2,7 @@ $primary: #394f68;
 $accent: hsl(108, 72%, 38%);
 $text: #333;
 $light: #d9d9d9;
+$social: hsl(108, 51%, 57%);
 
 @mixin section-title {
   font-size: 18px;
@@ -73,7 +74,7 @@ pre {
           line-height: 1.4;
 
           a {
-            color: $accent;
+            color: $social;
             text-decoration: none;
 
             &:hover {
@@ -182,6 +183,10 @@ pre {
     object-fit: cover;
     margin: 15px auto;
     border-radius: 8px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
   }
 
   &__footer {
@@ -215,6 +220,7 @@ pre {
 
   .cv__sidebar {
     padding: 25px !important;
+    padding-top: 0px !important;
   }
 
   .cv__main {
