@@ -20,6 +20,21 @@ pre {
   font-weight: 400;
 }
 
+::-moz-selection {
+  background: #333;
+  color: #fff;
+}
+
+::selection {
+  background: #333;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #333;
+  color: #fff;
+}
+
 .cv {
   max-width: 1240px;
   margin: 20px auto;

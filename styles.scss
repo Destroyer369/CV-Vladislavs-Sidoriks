@@ -33,6 +33,18 @@ pre {
   font-weight: 400;
 }
 
+::selection {
+  background: $text;
+  color: #fff;
+;
+}
+
+::-moz-selection {
+  background: $text;
+  color: #fff;
+;
+}
+
 .cv {
   max-width: 1240px;
   margin: 20px auto;
